@@ -1,4 +1,4 @@
-# basic signup, login and logout app setup.
+# Basic signup, login and logout app setup.
 A basic express app to maintain a login, sign up and logout.
 
 
