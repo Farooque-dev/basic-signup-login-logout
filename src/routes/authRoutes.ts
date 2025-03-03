@@ -1,7 +1,7 @@
 import express, {Request, Response, Router} from 'express';
 import passport from 'passport';
-import { ensureAuthenticated } from '../middlewares/ensureLoggedIn';
-import { login, signup } from '../controllers/authController';
+import {ensureAuthenticated} from '../middlewares/ensureLoggedIn';
+import {login, signup} from '../controllers/authController';
 
 export const authRoutes: Router = express.Router();
 
